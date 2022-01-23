@@ -48,7 +48,7 @@ class Setup(commands.Cog):
       await self.client.change_presence(
           activity=discord.Activity(type=randStatus[0],
                                     name=randStatus[1],
-                                    url="https://www.twitch.tv/fractionn")),
+                                    url="https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x?si=Tu32eXk-TkOw_B2aOxzjwA")),
 def setup(client):
   client.add_cog(Setup(client))
   client.help_command = YeHelpCommand()
