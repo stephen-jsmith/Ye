@@ -12,7 +12,6 @@ class Ye(commands.Bot):
     intents.members = True
     intents.typing = True
     self.CONFIG = {
-        "DebugMode":False,
         "Prefix": "-",
         "CogDirectory":os.path.join(os.path.dirname(__file__),"CogDirectory"),
         "UnloadableCogs":["setup"],
